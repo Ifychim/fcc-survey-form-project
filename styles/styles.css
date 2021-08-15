@@ -10,15 +10,16 @@ html
 
 /*ID Selectors (#)*/
 
-#form-intro h1
+#title
 {
-    color: white;
+    color: black;
 }
-#main-form
+#form-container
 {
     padding: 20px;
     height: 100%;
     background-color: brown;
+    text-align: center;
 }
 
 

@@ -11,19 +11,37 @@
         <main>
 
             <div id="form-intro">
-                <h1>UFC Fighter Application Survey Form</h1>
-                <p>Thank you for taking the time to apply to be in the UFC.</p>
+                <h1 id="title">UFC Fighter Application Survey Form</h1>
+                <p id="description">Thank you for taking the time to apply to be in the UFC.</p>
             </div>
-
-            <div id="main-form">
-                <form>
-                    <input type="text">
-                    <input type="email">
-                    <input type="text">
+            
+            <!--#6, #8 need to learn about HTML form validation-->
+            <div id="form-container">
+                <form id="survey-form">
+                    <input type="text" id="name" placeholder="Enter Your Name">
+                    <input type="email" id="email" placeholder="Enter Your Email">
+                    <input type="number" id="number" placeholder="Age">
+                    <select id="dropdown">
+                        <option>Wrestling</option>
+                        <option>Muay Thai</option>
+                        <option>Boxing</option>
+                        <option>Kick Boxing</option>
+                        <option>Brazilian Jiu-Jitsu</option>
+                        <option>Judo</option>
+                    </select>
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
                     <input type="button">
                 </form>
             </div>
             
         </main>
     </body>
+    
 </html>

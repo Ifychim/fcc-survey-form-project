@@ -1,7 +1,27 @@
 /*General Selectors*/
 
-/*ID Selectors*/
+html
+{
+    background-image: url('https://media.contentapi.ea.com/content/dam/ufc/images/2017/10/easufc3-overview-championshipfighters.jpg.adapt.crop191x100.628p.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-/*Class Selectors*/
+/*ID Selectors (#)*/
+
+#form-intro h1
+{
+    color: white;
+}
+#main-form
+{
+    padding: 20px;
+    height: 100%;
+    background-color: brown;
+}
+
+
+/*Class Selectors (.)*/
 
 /*Pseudo-Class Selectors*/

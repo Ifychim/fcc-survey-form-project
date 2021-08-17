@@ -15,7 +15,7 @@
                 <p id="description">Thank you for taking the time to apply to be in the UFC.</p>
             </div>
             
-            <!--#6, #8 need to learn about HTML form validation-->
+            <!--#6, #8, #9 need to learn about HTML form validation-->
             <div id="form-container">
                 <form id="survey-form">
 
@@ -26,7 +26,7 @@
                     <input type="email" id="email" placeholder="Enter Your Email" required>
 
                     <label id="age-label">Age(mandatory)</label>
-                    <input type="number" id="number" placeholder="Age" required>
+                    <input type="number" id="number" placeholder="Age" min ="18" max="47" required>
 
                     <label>Which of the following options best describe your fighting style?</label>
                     <select id="dropdown">
@@ -38,7 +38,6 @@
                         <option value="judo">Judo</option>
                     </select>
 
-                    <!--Insert Radio Buttons here #13 -->
                     <label>Would you recommend the UFC to a friend?</label>
                         <input type="radio" name="ufcRecommendation">
                         <label>Definitely</label>

@@ -18,9 +18,17 @@
             <!--#6, #8 need to learn about HTML form validation-->
             <div id="form-container">
                 <form id="survey-form">
-                    <input type="text" id="name" placeholder="Enter Your Name">
-                    <input type="email" id="email" placeholder="Enter Your Email">
-                    <input type="number" id="number" placeholder="Age">
+
+                    <label id="name-label">Name</label>
+                    <input type="text" id="name" placeholder="Enter Your Name" required>
+                    
+                    <label id="email-label">Email</label>
+                    <input type="email" id="email" placeholder="Enter Your Email" required>
+
+                    <label id="age-label">Age(mandatory)</label>
+                    <input type="number" id="number" placeholder="Age" required>
+
+                    <label>Which of the following options best describe your fighting style?</label>
                     <select id="dropdown">
                         <option>Wrestling</option>
                         <option>Muay Thai</option>
@@ -29,7 +37,10 @@
                         <option>Brazilian Jiu-Jitsu</option>
                         <option>Judo</option>
                     </select>
-                    <input type="checkbox">
+
+                    <!--Inserst -->
+
+                    <input type="checkbox"> 
                     <input type="checkbox">
                     <input type="checkbox">
                     <input type="checkbox">
@@ -38,6 +49,7 @@
                     <input type="checkbox">
                     <input type="checkbox">
                     <input type="button">
+
                 </form>
             </div>
             
